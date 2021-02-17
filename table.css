@@ -1,0 +1,36 @@
+.atc{
+    margin-top: 10px;
+    height: 20px;
+    width:100%;
+    background-color:#F3BB2D;
+    border:.5px solid black;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 1%;
+    
+}
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+#container{
+    margin:auto;
+    background-color:white;
+    width:90%;
+    border:1px solid #b9b9b5;
+}
+th{
+    background-color:#2D65F3;
+    color:white;
+    text-align:left;
+    height:40px;
+    border:1px solid #DAD9D1
+}
+tr{
+    height:40px;
+}
+td{
+    border:1px solid #DAD9D1;
+}

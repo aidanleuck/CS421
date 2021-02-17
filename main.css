@@ -1,29 +1,44 @@
-.nav-list{
-    list-style: none;
-    margin-left:-9%;
-    margin-top: 1%
- 
-    
- 
-    
-    
+#container{
+    margin:auto;
+    background-color:white;
+    width:90%;
+    border:1px solid #DAD9D1;
 }
-#nav{
+body{
+    background-color: #F5F5F5;
+}
+.shipping{
+    color : #2D65F3;
+    text-align:center;
+}
+.heading{
+    margin-left: 10%;
+    color: #2D65F3;
+}
+#product{
+    width: 15%;
+    margin-right:50px;
+    margin-bottom:30px;
+
+}
+#product-row{
+    display:flex;
+    margin-left:10%;
+    flex-wrap: wrap;
+}
+#price{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+.atc{
+    margin-top: 10px;
+    height: 40px;
+    width:100%;
     background-color:#F3BB2D;
-    border:1px solid #2D65F3;
-    height:6%
-  
-    
-
+    border:.5px solid black;
 }
-.nav-item{
-    display:inline-block;
-    margin-left:12%;
-    font-family:"Copperplate", "Arial", "Verdana";
-
-    
-}
-.user-info{
-    float:right;
-    margin-right: 3%;
+.responsive{
+    max-width: 100%;
+    height:auto;
 }

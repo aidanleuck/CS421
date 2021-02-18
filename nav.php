@@ -13,17 +13,17 @@
                     <li class = "nav-item hover"><a href = "order-policy.php">Order Policy</a></li>
                     <li class = "nav-item hover"><a href = "about.php">About Us</a></li>
                     <li class = "user-info hover">
-                    <span class = "hover">
+                    <a href = "cart.php"><span class = "hover">
                         <span class = "cart">
                             <i class="gg-shopping-cart"></i>
                         </span>
                         <span class = "user-info-text">
                     </span>
                         <label>Cart</label>
-                    </span>
+                    </span></a>
                     
                     </li>
-                    
+                    <!--------------Car dropdown will be implemented with JQuery/JS  ----------->
                     <li class = "user-info hover"><i class="fa fa-car" aria-hidden="true"></i></li>
                     <a href = "login.php">
                     <li class = "user-info hover"><i class="fa fa-user"></i></li></a>

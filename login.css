@@ -1,0 +1,23 @@
+#container{
+    margin:auto;
+    background-color:white;
+    width:25%;
+    margin-top:5%;
+    border:1px solid #DAD9D1;
+}
+#login{
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+label{
+   
+    margin-right:1%;
+}
+input{
+    width: 90%;
+}
+.userinput{
+    margin-right:9px;
+}

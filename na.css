@@ -72,3 +72,7 @@ a:link{
     color:white;
     line-height:50px;
 }
+a:visited{
+    color:white;
+    text-decoration: none;
+}

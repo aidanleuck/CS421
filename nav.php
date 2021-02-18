@@ -11,7 +11,7 @@
                     <li class = "nav-item hover"><a href = "home.php">Home</a></li>
                     <li class = "nav-item hover"><a href = "shopbypart.php">Shop By Product #</a></li>
                     <li class = "nav-item hover"><a href = "order-policy.php">Order Policy</a></li>
-                    <li class = "nav-item hover"><a href = "home.php">About Us</a></li>
+                    <li class = "nav-item hover"><a href = "about.php">About Us</a></li>
                     <li class = "user-info hover">
                     <span class = "hover">
                         <span class = "cart">
@@ -24,7 +24,7 @@
                     
                     </li>
                     <li class = "user-info hover"><i class="fa fa-car" aria-hidden="true"></i></li>
-                    <li class = "user-info hover"><img src = ""/><i class="fa fa-user"></i></li>
+                    <li class = "user-info hover"><i class="fa fa-user"></i></li>
                     
             </div>
 

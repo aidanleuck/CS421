@@ -1,0 +1,30 @@
+#container{
+    margin:auto;
+    background-color:white;
+    width:90%;
+    border:1px solid #DAD9D1;
+}
+p{
+    margin-left: 2%;
+}
+h1{
+    margin-left: 2%;
+}
+img{
+    width:100%;
+   
+}
+#img{
+    
+    margin-bottom: 1%;
+    padding-right: 5%;
+  
+}
+#where{
+    display:inline-flex;
+    margin-top: 50px;
+  
+}
+#info{
+    margin-right:5%;
+}

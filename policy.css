@@ -31,3 +31,22 @@
     margin-left: 7%;
     font-size:11pt;
 }
+#inner-container{
+    display:flex;
+}
+.contact{
+    margin-left:5%;
+    width:50%;
+    text-align:center;
+}
+
+textarea{
+    height:90%;
+    width:98%;
+
+}
+.submit{
+    margin-top:1%;
+    background-color:#F3BB2D;
+    border:.5px solid black;
+}

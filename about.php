@@ -18,13 +18,13 @@
                 <p>Our business is run out of Boise, Idaho and Haines, Oregon</p>
             </div>
             <div id ="img">
-                <img src = "boise.jpg">
+                <img src = "images/boise.jpg">
             </div>
         </div>
         
         <div id = "about">
             <div id = "img-2">
-                <img src = "aaron.jpg">
+                <img src = "images/aaron.jpg">
             </div>
             <div id = "info">
             <p>We have sold thousands of filters on eBay and through our website and have had nothing but praise from our customers. We have spent a year putting our new website together and are very excited to bring our 

@@ -8,7 +8,7 @@
     <?php include "nav.php" ?>
     <div id = "container">
         <div id = "banner">
-            <img class = "header" src = "header-image.jpg">
+            <img class = "header" src = "images/header-image.jpg">
         </div>
         <div id = "inner-container">
             <div class = "policy">

@@ -11,7 +11,7 @@
             <div id = "cart-row">
                 <div id = "inner-cart">
                 <div id = "image">
-                    <img src = "air-filter.jpg" class ="image-pic"></img>
+                    <img src = "images/air-filter.jpg" class ="image-pic"></img>
                 </div>
                 <div id = "align">
                     <div id = "description">
@@ -35,7 +35,7 @@
             <div id = "cart-row">
                 <div id = "inner-cart">
                 <div id = "image">
-                    <img src = "air-filter.jpg" class ="image-pic"></img>
+                    <img src = "images/air-filter.jpg" class ="image-pic"></img>
                 </div>
                 <div id = "align">
                     <div id = "description">
@@ -58,7 +58,7 @@
             <div id = "cart-row">
                 <div id = "inner-cart">
                 <div id = "image">
-                    <img src = "air-filter.jpg" class ="image-pic"></img>
+                    <img src = "images/air-filter.jpg" class ="image-pic"></img>
                 </div>
                 <div id = "align">
                     <div id = "description">

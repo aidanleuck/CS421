@@ -1,4 +1,3 @@
-
             <span class = "searchbar-span">
             <input class = "search" placeholder="Search"></input>
             </span>
@@ -18,15 +17,24 @@
                             <i class="gg-shopping-cart"></i>
                         </span>
                         <span class = "user-info-text">
-                    </span>
-                        <label>Cart</label>
-                    </span></a>
+                    </span>Cart</span></a>
                     
                     </li>
                     <!--------------Car dropdown will be implemented with JQuery/JS  ----------->
                     <li class = "user-info hover"><i class="fa fa-car" aria-hidden="true"></i></li>
-                    <a href = "login.php">
+                    <?php
+                        session_start();
+                        if($_SESSION['logged_in']){
+                            echo '<a href = "logout_handler.php"><li class = "user-info hover">Log Out</li></a>';
+                            echo '<a href= "account.php">';
+                        }
+                        else{
+                            echo '<a href= "login.php">'; 
+                        }
+                    ?>
+                    
                     <li class = "user-info hover"><i class="fa fa-user"></i></li></a>
+                    
                     
             </div>
 

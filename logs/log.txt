@@ -1,0 +1,53 @@
+now - FATAL --> Hello 
+now - FATAL --> Hello 
+now - FATAL --> Hello 
+now - FATAL --> Hello 
+now - FATAL --> PDOException: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'qfw' in /opt/lampp/htdocs/CS421_Website/database.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(16): PDO->__construct('mysql:dbname=qf...', 'rot', '')
+#1 /opt/lampp/htdocs/CS421_Website/nav.php(5): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/index.php(9): include('/opt/lampp/htdo...')
+#3 {main} 
+now - FATAL --> 1 
+now - FATAL --> Database connection failed!PDOException: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'qfw' in /opt/lampp/htdocs/CS421_Website/database.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(16): PDO->__construct('mysql:dbname=qf...', 'rot', '')
+#1 /opt/lampp/htdocs/CS421_Website/nav.php(5): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/index.php(9): include('/opt/lampp/htdo...')
+#3 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'qfw' in /opt/lampp/htdocs/CS421_Website/database.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(16): PDO->__construct('mysql:dbname=qf...', 'rot', '')
+#1 /opt/lampp/htdocs/CS421_Website/nav.php(5): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/index.php(9): include('/opt/lampp/htdo...')
+#3 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'qfw' in /opt/lampp/htdocs/CS421_Website/database.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(16): PDO->__construct('mysql:dbname=qf...', 'rot', '')
+#1 /opt/lampp/htdocs/CS421_Website/database.php(25): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/login_handler.php(9): Database->verifyLogin('', '')
+#3 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'qfw' in /opt/lampp/htdocs/CS421_Website/database.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(16): PDO->__construct('mysql:dbname=qf...', 'rot', '')
+#1 /opt/lampp/htdocs/CS421_Website/database.php(25): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/login_handler.php(9): Database->verifyLogin('', '')
+#3 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'qfw' in /opt/lampp/htdocs/CS421_Website/database.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(16): PDO->__construct('mysql:dbname=qf...', 'rot', '')
+#1 /opt/lampp/htdocs/CS421_Website/database.php(25): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/login_handler.php(9): Database->verifyLogin('aaron@leucks.co...', 'testpassword')
+#3 {main} 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 

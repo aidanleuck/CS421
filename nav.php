@@ -24,10 +24,17 @@
                     <li class = "user-info hover"><i class="fa fa-car" aria-hidden="true"></i></li>
                     <?php
                         session_start();
-                        if($_SESSION['logged_in']){
-                            echo '<a href = "logout_handler.php"><li class = "user-info hover">Log Out</li></a>';
-                            echo '<a href= "account.php">';
+                        if(isset($_SESSION['logged_in'])){
+                            if($_SESSION['logged_in']){
+                                echo '<a href = "logout_handler.php"><li class = "user-info hover">Log Out</li></a>';
+                                echo '<a href= "account.php">';
+                            }
+                            else{
+                                echo '<a href= "login.php">'; 
+                            }
+
                         }
+                        
                         else{
                             echo '<a href= "login.php">'; 
                         }

@@ -5,84 +5,67 @@
     </head>
 
     <body>
-        <?php include "nav.php" ?>
+    <?php 
+        include 'database.php';
+        include 'user.php';
+        include 'cartList.php';
+        include "nav.php";
 
-        <div id = "container">
-            <div id = "cart-row">
-                <div id = "inner-cart">
-                <div id = "image">
-                    <img src = "images/air-filter.jpg" class ="image-pic"></img>
-                </div>
-                <div id = "align">
-                    <div id = "description">
-                        <p>This is a 2010 Subaru Outback Air Filter for the air conditioning unit.</p>
-                    </div>
-                </div>
-                <div id = "quantity">
-                    <select name = "number" id = "quantitySelect">
-                        <option value = "1">1</option>
-                        <option value = "2">2</option>
-                        <option value = "3">3</option>
-                        <option value = "4">4</option>
-                    </select>
-                </div>
+        $dao = new Database();
+        
+        if(!isset($_SESSION['logged_in'])){
+            if(!isset($_SESSION['cart'])){
+                $_SESSION['cart'] = new CartList();
+            }
+            if(isset($_POST['id'])){
+                $currentList = $_SESSION['cart'];
+                $result = $dao->getPartInfo($_POST['id']);
+                $cart= new CartItem($result['partID'], $result['imageSrc'],
+                $result['partName'], $result['partDesc'], $result['stock'], $result['price']);
+                $currentList->addCartItem($cart);
+                $_SESSION['cart'] = $currentList;
+            }
+            $_SESSION['cart']->printCart();
+
+        }
+        else{
+            if(isset($_SESSION['cart'])){
+                foreach($_SESSION['cart'] as $item){
+                    addToCart($_SESSION['user']->getID(), $item->getID());
+                }
+                $_SESSION['cart'] = NULL;
                 
-            </div>
-            <div id = "price">$22.99</div>
-            </div>
-            <hr></hr>
+            }
+            if(isset($_POST['id'])){
+                if($dao->verifyPart($_POST['id'])){
+                    $dao->addToCart($_SESSION['user']->getAccountID(), $_POST['id']);
 
-            <div id = "cart-row">
-                <div id = "inner-cart">
-                <div id = "image">
-                    <img src = "images/air-filter.jpg" class ="image-pic"></img>
-                </div>
-                <div id = "align">
-                    <div id = "description">
-                        <p>This is a 2010 Subaru Outback Air Filter for the air conditioning unit.</p>
-                    </div>
-                </div>
-                <div id = "quantity">
-                    <select name = "number" id = "quantitySelect">
-                        <option value = "1">1</option>
-                        <option value = "2">2</option>
-                        <option value = "3">3</option>
-                        <option value = "4">4</option>
-                    </select>
-                </div>
-               
-            </div>
-            <div id = "price">$22.99</div>
-            </div>
-            <hr></hr>
-            <div id = "cart-row">
-                <div id = "inner-cart">
-                <div id = "image">
-                    <img src = "images/air-filter.jpg" class ="image-pic"></img>
-                </div>
-                <div id = "align">
-                    <div id = "description">
-                        <p>This is a 2010 Subaru Outback Air Filter for the air conditioning unit.</p>
-                    </div>
-                </div>
-                <div id = "quantity">
-                    <select name = "number" id = "quantitySelect">
-                        <option value = "1">1</option>
-                        <option value = "2">2</option>
-                        <option value = "3">3</option>
-                        <option value = "4">4</option>
-                    </select>
-                </div>
-               
-            </div>
-            <div id = "price">$22.99</div>
-            </div>
-            <hr></hr>
-            <div id = "total">Subtotal: 68.97</div>
-            <div id = "checkout">
-                <button class = "pay">Checkout</button>
-            </div>
-        </div>
+                }
+                else{
+                    header('Location: index.php');
+                    exit;
+                }
+            
+            }
+            $cartInfo = $dao->getCart($_SESSION['user']->getAccountID());
+            $cart = new CartList();
+            if($cartInfo){
+               foreach($cartInfo as $cartI){
+                    $result = $dao->getPartInfo($cartI['partID']);
+                    $cartPart= new CartItem($result['partID'], $result['imageSrc'],
+                    $result['partName'], $result['partDesc'], $result['stock'], $result['price']);
+                    $cart->addCartItem($cartPart);
+                }
+            }
+            
+            $cart->printCart();
+
+        }
+        
+        ?>
+
+            
+        
         <?php include "footer.php" ?>
     </body>
 </html>

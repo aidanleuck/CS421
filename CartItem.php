@@ -17,11 +17,13 @@ Class CartItem{
     public function getID(){
         return $this->partID;
     }
+    public function getPrice(){
+        return $this->price;
+    }
 
     public function displayItem(){
 
         echo '
-        <div id = "container">
             <div id = "cart-row">
                 <div id = "inner-cart">
                 <div id = "image">
@@ -33,8 +35,8 @@ Class CartItem{
                     </div>
                 </div>
                 <div id = "quantity">
-                    <select name = "number" id = "quantitySelect">';
-                         for ($i=0; $i < $this->stock; $i++) 
+                    <select name = "number?'.$this->partID.'" id = "quantitySelect">';
+                         for ($i=1; $i <= $this->stock; $i++) 
                         { 
                             echo '<option value = '.$i.'>'.$i. '</option>';
                         }
@@ -42,8 +44,8 @@ Class CartItem{
                     </select>
                 </div>
                 
+            <div id = "price">$'.$this->price .'</div>
             </div>
-            <div id = "price">'.$this->price .'</div>
             </div>
             <hr></hr>';
     }

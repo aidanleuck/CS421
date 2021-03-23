@@ -1,7 +1,7 @@
 <html>
     <head>
         <?php include "stylesheets.php" ?>
-        <link rel = "stylesheet" href = "cart.css">
+        <link rel = "stylesheet" href = "ct.css">
     </head>
 
     <body>
@@ -13,7 +13,7 @@
 
         $dao = new Database();
         
-        if(!isset($_SESSION['logged_in'])){
+        if(!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] === FALSE ){
             if(!isset($_SESSION['cart'])){
                 $_SESSION['cart'] = new CartList();
             }
@@ -30,8 +30,10 @@
         }
         else{
             if(isset($_SESSION['cart'])){
-                foreach($_SESSION['cart'] as $item){
-                    addToCart($_SESSION['user']->getID(), $item->getID());
+            
+                foreach($_SESSION['cart']->returnCart() as $item){
+                    $dao->addToCart($_SESSION['user']->getAccountID(), $item->getID());
+
                 }
                 $_SESSION['cart'] = NULL;
                 
@@ -63,8 +65,6 @@
         }
         
         ?>
-
-            
         
         <?php include "footer.php" ?>
     </body>

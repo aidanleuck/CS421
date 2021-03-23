@@ -24,7 +24,9 @@ Class CartList{
     public function printCart(){
         if(count($this->cartItems)){
             echo '<form action = "checkout.php" method = "post">
-        <div id = "container">';
+        <div id = "container">
+        <h2 class = "cartTitle">Your Shopping Cart</h1>'
+        ;
         foreach($this->cartItems as $i){
             $i->displayItem();
         }

@@ -48,6 +48,28 @@ require 'KLogger.php';
 
     }
 
+    public function inCart($partID, $userID){
+        $conn = $this->makeConnection();
+
+        try{
+            $q = $conn->prepare("Select count(*) as total From Cart WHERE partID = :partID and accountID = :userID");
+            $q->bindParam(':partID', $partID);
+            $q->bindParam(':userID', $userID);
+            $q->execute();
+            $row = $q->fetch();
+
+            if($row['total']){
+                $this->logger->LogDebug("Found row in cart for " .$partID . "and user " .$userID);
+                return true;
+            }
+            return false;
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+
     public function verifyPart($partID){
         $conn = $this->makeConnection();
 
@@ -128,17 +150,21 @@ require 'KLogger.php';
         
     }
     public function addToCart($accountID, $partID){
-        $conn = $this->makeConnection();
-        try{
-            $this->logger->LogDebug("Inserting Part: " . $partID . 'for account: ' . $accountID);
-            $q = $conn->prepare("INSERT INTO Cart (accountID, partID) VALUES (:accountID, :partID)");
-            $q->bindParam(':accountID', $accountID);
-            $q->bindParam(':partID', $partID);
-            $q->execute();
+        if(!($this->inCart($partID, $accountID))){
+            $conn = $this->makeConnection();
+            try{
+                $this->logger->LogDebug("Inserting Part: " . $partID . 'for account: ' . $accountID);
+                $q = $conn->prepare("INSERT INTO Cart (accountID, partID) VALUES (:accountID, :partID)");
+                $q->bindParam(':accountID', $accountID);
+                $q->bindParam(':partID', $partID);
+                $q->execute();
+            }
+            catch(Exception $e){
+                $this->logger->LogWarn($e);
+            }
+
         }
-        catch(Exception $e){
-            $this->logger->LogWarn($e);
-        }
+        
     }
     public function getCart($accountID){
         $conn = $this->makeConnection();

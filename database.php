@@ -48,6 +48,35 @@ require 'KLogger.php';
 
     }
 
+    public function deleteCart($uid){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("Delete FROM Cart WHERE accountID = :uid");
+            $q->bindParam(':uid', $uid);
+            $q->execute();
+            $this->logger->LogDebug('Deleting entire cart for user'. $uid);
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+        
+    }
+    public function deletePartialCart($uid, $partID){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("Delete FROM Cart WHERE accountID = :uid and partID = :partID");
+            $q->bindParam(':uid', $uid);
+            $q->bindParam(':partID', $partID);
+            $q->execute();
+            $this->logger->LogDebug('Deleting cart item '.$partID. ' for user'. $uid);
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+
     public function inCart($partID, $userID){
         $conn = $this->makeConnection();
 

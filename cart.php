@@ -1,7 +1,7 @@
 <html>
     <head>
         <?php include "stylesheets.php" ?>
-        <link rel = "stylesheet" href = "ct.css">
+        <link rel = "stylesheet" href = "carp.css">
     </head>
 
     <body>
@@ -63,6 +63,7 @@
             $cart->printCart();
 
         }
+            
         
         ?>
         

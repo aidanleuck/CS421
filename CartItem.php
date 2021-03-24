@@ -24,18 +24,11 @@ Class CartItem{
     public function displayItem(){
 
         echo '
-            <div class = "priceHeader">Price</div>
-      
-            <hr></hr>
-       
-
-            
-           
             <div id = "cart-row">
                 <div id = "inner-cart">
                 <div id = "imageCheck">
                     <div id = "check">
-                        <input type = "checkbox" name = "'.$this->partID.'">
+                        <input type = "checkbox" name = "partID[]" value = "'.$this->partID.'">
                     </div>
 
                     <div id = "image" >
@@ -61,7 +54,7 @@ Class CartItem{
                     echo '<span class = "out_stock">Out of Stock</span>';
                 }
             echo '
-            <div id = "price">$'.$this->price.'.99</div>
+            <div id = "price">$'.$this->price.'</div>
             </div>
 
             <div id = "quantity">
@@ -71,8 +64,8 @@ Class CartItem{
 
            
 
-                for($i = 0; $i <= $this->stock; $i++){
-                    echo '<option value = '.$this->partID.'>'.$i.'</option>';
+                for($i = 1; $i <= $this->stock; $i++){
+                    echo '<option value = '.$i.'>'.$i.'</option>';
                 }
                 echo'</select>
                 

@@ -216,3 +216,39 @@ now - DEBUG --> Found cart for account 1
 now - DEBUG --> Found row for part #124 
 now - DEBUG --> Found row for part #123 
 now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found row in cart for #123and user 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 

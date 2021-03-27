@@ -16,7 +16,8 @@ Class CartList{
 
     }
     public function removeCartItem($id){
-       unset($this->cartItems[$id]);
+        unset($this->cartItems[$id]);
+       
     }
     public function emptyCart(){
         $this->cartItems = array();

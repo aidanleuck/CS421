@@ -13,24 +13,20 @@
 }
 h3{
     text-align:center;
+    margin-top:0;
 }
 
-input{
+.input-text{
     width: 90%;
     margin-left: 5%;
     margin-bottom:4%;
     height:4%;
   
 }
-.userinput{
-    margin-right:9px;
-}
-#label{
-    margin-left:5%;
-}
-button{
-    background: #F3BB2D;
-    width: 90%;
+.submitForm{
+    width: 90%;  
+    background: #992600; 
+    color:white;
     border-radius: 3px;
     border-color: #adb1b8 #a2a6ac #8d9096;
     border-style: solid;
@@ -38,8 +34,19 @@ button{
     display:block;
     margin:auto;
     margin-bottom:5%;
-    height: 3%;
+    padding-bottom: 1%;
+    padding-top:1%;
 }
+.submitForm:hover{
+    background:#7a1e00; 
+}
+.userinput{
+    margin-right:9px;
+}
+#label{
+    margin-left:5%;
+}
+
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 14px;
@@ -62,6 +69,12 @@ hr{
    
     
 }
+#header-bar{
+    background-color: #007399; 
+    padding-bottom: 1em;
+    margin-bottom:1em;
+    color:white;
+}
 #error{
     text-align:center;
     padding-bottom: 2%;
@@ -81,7 +94,20 @@ hr{
     line-height: 25px;
     
 }
-a{
+#arrow{
+    padding-left:3px;
+    padding-top:3px;
+    font-size:20px;
+}
+
+.fa-arrow-circle-left{
+    color:white;
+}
+
+.fa-arrow-circle-left:hover{
+    color:#992600;
+}
+.a-button{
     background: #DAD9D1;
     border-radius: 3px;
     border-color: #adb1b8 #a2a6ac #8d9096;
@@ -90,7 +116,6 @@ a{
     display:block;
     margin:auto;
     margin-bottom:5%;
-    height: 3%;
     text-align:center;
 
     

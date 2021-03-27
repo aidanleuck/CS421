@@ -1,7 +1,7 @@
 <html>
     <head>
         <?php include "stylesheets.php" ?>
-        <link rel = "stylesheet" href = "carp.css">
+        <link rel = "stylesheet" href = "carn.css">
     </head>
 
     <body>

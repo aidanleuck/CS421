@@ -73,7 +73,7 @@ Class CartItem{
 
 
             <div id ="delete">
-                <a id = "deleteLink" href = "delete_handler.php?pID='.$this->partID.'">Remove</a>
+                <a id = "deleteLink" href = "delete_handler.php?pID='.urlencode($this->partID).'">Remove</a>
             </div>
            
             </div>

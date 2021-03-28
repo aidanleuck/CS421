@@ -2,7 +2,9 @@
     <head>
     <link rel="stylesheet" href="main.css">
     <?php
-    include "stylesheets.php"
+    session_start();
+    $_SESSION['pageName'] = "Home";
+    include "stylesheets.php";
     ?>
     </head>
     <?php

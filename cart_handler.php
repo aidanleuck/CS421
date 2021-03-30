@@ -17,6 +17,10 @@ if(isset($_POST['deleteAll'])){
         header('Location: cart.php');
     }
 }
+else if(isset($_POST['checkout'])){
+    header('Location:checkout.php');
+    exit;
+}
 else if(isset($_POST['deleteSelected'])){
     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
         foreach($_POST['partID'] as $delItem){
@@ -25,6 +29,7 @@ else if(isset($_POST['deleteSelected'])){
         header('Location: cart.php');
         
     }
+
     else{
         if(isset($_SESSION['cart'])){
             foreach($_POST['partID'] as $delItem){

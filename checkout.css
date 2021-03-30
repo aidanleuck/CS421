@@ -1,0 +1,54 @@
+#container{
+    background-color:white;
+    width:55%;
+    margin-left:15%;
+    margin-top: 2%;
+    border:1px solid #DAD9D1;
+}
+.margin{
+   margin-left:2%;
+}
+.input{
+    width:50%;
+    height:3%;
+    margin-left:4%;
+    margin-bottom: 2%;
+}
+label{
+    padding-left:4%;
+}
+#headerBar{
+    background-color: #007399; 
+    padding-top:20px;
+    padding-bottom: 20px;
+    color:white;
+    position: relative;
+    padding-left: 4%;
+    overflow: hidden;
+    margin-bottom: 2em;
+    height: 75px;
+    
+}
+#shipping{
+    border:1px solid #DAD9D1;
+    width:25%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    margin-right:2%;
+
+    
+}
+#payment{
+    display:inline-block;
+    vertical-align: top;
+    width:67%;
+    border:1px solid #DAD9D1;
+}
+#center{
+    text-align: center;
+}
+#center > a{
+    color:  #007399;
+    text-decoration: underline;
+}

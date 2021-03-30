@@ -7,7 +7,7 @@ if(!$_SESSION['logged_in']){
 ?>
 
 <head>
-<link rel="stylesheet" href="accoun.css">
+<link rel="stylesheet" href="accoun.css?v=<?time()?>">
 </head>
 
 <div id = "container">
@@ -25,7 +25,7 @@ if(!$_SESSION['logged_in']){
                 <a href = "manageUserInfo.php" id = "link">Update User Information</a>
             </div>
             <div id = "inner-content">
-                <a href = "" id = "link">Update Password</a>
+                <a href = "updatePassword.php" id = "link">Update Password</a>
             </div>
         </div>
         <div id = "content">

@@ -607,3 +607,300 @@ now - DEBUG --> Found row in cart for #123and user 1
 now - DEBUG --> Found cart for account 1 
 now - DEBUG --> Found row for part #123 
 now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Updating Account '.1.' 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Updating Account '.1.' 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Updating Account '.1.' 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Updating Account '.1.' 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Updating Account '.1.' 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Updating Account '.1.' 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found user info for account 1 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Inserting Part: #124for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Updating password for account '..' 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Updating password for account '..' 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Updating password for account '.1.' 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Updating password for account '.1.' 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Creating user with email: connor@leucks.com 
+now - DEBUG --> Found id for account connor@leucks.com 
+now - DEBUG --> Creating user with email: connor@leucks.com 
+now - DEBUG --> Found id for account connor@leucks.com 
+now - DEBUG --> Found id for account connor@leucks.com 
+now - DEBUG --> User does not exist for account ram@ramranch.com 
+now - DEBUG --> Creating user with email: ram@ramranch.com 
+now - DEBUG --> Found id for account ram@ramranch.com 
+now - DEBUG --> Found id for account ram@ramranch.com 
+now - DEBUG --> User does not exist for account lal@lal.com 
+now - DEBUG --> Creating user with email: lal@lal.com 
+now - DEBUG --> Found id for account lal@lal.com 
+now - DEBUG --> User does not exist for account Array 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account lal@lal.com 
+now - DEBUG --> Found user info for account 5 
+now - DEBUG --> User does not exist for account crab@crab.com 
+now - DEBUG --> Creating user with email: crab@crab.com 
+now - DEBUG --> Found id for account crab@crab.com 
+now - DEBUG --> Found user info for account 6 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found user info for account 1 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found user info for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row in cart for #124and user 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> User does not exist for account aaron@leucks.com 
+now - DEBUG --> Creating user with email: aaron@leucks.com 
+now - DEBUG --> Found id for account aaron@leucks.com 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> User does not exist for account form@form.com 
+now - DEBUG --> Creating user with email: form@form.com 
+now - DEBUG --> Found id for account form@form.com 
+now - DEBUG --> No rows exist in the cart for account 8 
+now - DEBUG --> No rows exist in the cart for account 8 
+now - DEBUG --> No rows exist in the cart for account 8 
+now - DEBUG --> No rows exist in the cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Inserting Part: #124for account: 8 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found user info for account 8 
+now - DEBUG --> Found user info for account 8 
+now - DEBUG --> Found user info for account 8 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found id for account  
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found user info for account 8 
+now - DEBUG --> Updating Account '.8.' 
+now - DEBUG --> Found user info for account 8 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found user info for account 8 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found cart for account 8 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found id for account 8 
+now - DEBUG --> Found user info for account 8 
+now - DEBUG --> Found id for account 8 

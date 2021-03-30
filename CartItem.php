@@ -24,6 +24,7 @@ Class CartItem{
     public function displayItem(){
 
         echo '
+        
             <div id = "cart-row">
                 <div id = "inner-cart">
                 <div id = "imageCheck">
@@ -40,7 +41,7 @@ Class CartItem{
                 
             </div>
             <div id = "info">
-
+            <input type = "hidden" name = "partIDCheckout[]" value = "'.$this->partID.'"/>
             <div id = "title">
                 
                 <a href = "products.php/?pID='.$this->partID.'"><h2 class = "product">'.$this->partName.'</h2></a>
@@ -68,6 +69,8 @@ Class CartItem{
                     echo '<option value = '.$i.'>'.$i.'</option>';
                 }
                 echo'</select>
+
+                
                 
             </div>
 
@@ -75,11 +78,13 @@ Class CartItem{
             <div id ="delete">
                 <a id = "deleteLink" href = "delete_handler.php?pID='.urlencode($this->partID).'">Remove</a>
             </div>
+
+            
            
             </div>
 
 
-           
+            
                         
             
 

@@ -266,6 +266,81 @@ require 'KLogger.php';
             exit;
         }
     }
+    public function addUser($email, $password){
+        $conn = $this->makeConnection();
+            try{
+                $this->logger->LogDebug("Creating user with email: " . $email);
+                $q = $conn->prepare("INSERT INTO Account (email, password) VALUES (:email, :password)");
+                $q->bindParam(':email', $email);
+                $q->bindParam(':password', $password);
+                $q->execute();
+            }
+            catch(Exception $e){
+                $this->logger->LogWarn($e);
+            }
+
+    }
+    public function updateUser($uID, $email, $address, $city, $state, $zip){
+        $conn = $this->makeConnection();
+        try{
+            $this->logger->LogDebug("Updating Account '.$uID.'");
+            $q = $conn->prepare("UPDATE Account SET email = :email, address = :address, city = :city, state = :state, zip = :zip WHERE accountID = :uid");
+            $q->bindParam(':uid', $uID);
+            $q->bindParam(':email', $email);
+            $q->bindParam(':address', $address);
+            $q->bindParam(':city', $city);
+            $q->bindParam(':state', $state);
+            $q->bindParam(':zip', $zip);
+            $q->execute();
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn($e);
+        }
+
+    }
+    public function getUserInfo($uid){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("SELECT state, city, zip, address From Account WHERE accountID = :uid");
+            $q->bindParam(':uid', $uid);
+            $q->execute();
+            $row = $q->fetch();
+
+            if($row){
+                $this->logger->LogDebug("Found id for account " .$uid);
+                return $row;
+            }
+            else{
+                $this->logger->LogDebug("User does not exist for account ". $uid);
+            }
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+    public function getUserByEmail($email){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("SELECT accountID From Account WHERE email = :email");
+            $q->bindParam(':email', $email);
+            $q->execute();
+            $row = $q->fetch();
+
+            if($row){
+                $this->logger->LogDebug("Found id for account " .$email);
+                return TRUE;
+            }
+            else{
+                $this->logger->LogDebug("User does not exist for account ". $email);
+                return FALSE;
+            }
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
     public function getUserID($email, $password){
         $conn = $this->makeConnection();
         try{
@@ -308,6 +383,19 @@ require 'KLogger.php';
         catch(Exception $e){
             $this->logger->LogWarn(print_r($e, 1));
             exit;
+        }
+    }
+    public function updatePassword($uid, $password){
+        $conn = $this->makeConnection();
+        try{
+            $this->logger->LogDebug("Updating password for account '.$uid.'");
+            $q = $conn->prepare("UPDATE Account SET password = :password WHERE accountID = :uid");
+            $q->bindParam(':uid', $uid);
+            $q->bindParam(':password', $password);
+            $q->execute();
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn($e);
         }
     }
     

@@ -1,6 +1,12 @@
 <?php 
+include 'database.php';
+include 'user.php';
 session_start();
 
+if(!$_SESSION['logged_in']){
+    header('Location: index.php');
+    exit;
+}
 $_SESSION['errors'] = array();
 $_SESSION['savedForm'] = array();
 $_SESSION['succesfulForm'] = FALSE;
@@ -59,6 +65,10 @@ if(count($_SESSION['errors'])){
 }
 else{
     $_SESSION['succesfulForm'] = TRUE;
+    
+    $dao = new Database();
+    $dao->updateUser($_SESSION['user']->getAccountID(), $_POST['email'], $_POST['address'], $_POST['city'], $_POST['state'], $_POST['zip']);
+
 }
 
 header('Location: manageUserInfo.php');

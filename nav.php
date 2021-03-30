@@ -2,14 +2,18 @@
             F
     </div>
        
-       
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <div id ="searchbar">
-            <span class = "searchbar-span">
-            <input class = "search" placeholder="Search"></input>
-            </span>
-            <span class ="button-span">
-            <button class = "searchbutton"><i id ="customize" class="fa fa-search" aria-hidden="true"></i></button>
-            </span>
+                <form method = "post" action ="search_handler.php">
+
+            
+                    <span class = "searchbar-span">
+                        <input class = "search" name = "searchVal" placeholder="Search"></input>
+                    </span>
+                    <span class ="button-span">
+                        <button type = "submit" class = "searchbutton"><i id ="customize" class="fa fa-search" aria-hidden="true"></i></button>
+                    </span>
+                </form>
             </div>
       
       
@@ -34,12 +38,11 @@
                     <li class = "user-info " id = "hover"><i class="fa fa-car" aria-hidden="true"></i></li>
                     
                     
-                    <li class = "user-info " id = "hover">
                     <?php
                         session_start();
                         if(isset($_SESSION['logged_in'])){
                             if($_SESSION['logged_in']){
-                                echo '<a href = "logout_handler.php">Log Out</a>';
+                                echo '<a href = "logout_handler.php"><li id = "hover" class = "user-info">Log Out</li></a>';
                                 echo '<a href= "account.php">';
                             }
                             else{
@@ -51,13 +54,13 @@
                         else{
                             echo '<a href= "login.php">'; 
                         }
-                    ?>    
-                    <i class="fa fa-user"></i></li>
+                    ?>
+                    
+                    <li class = "user-info" id = "hover"><i class="fa fa-user"></i></li></a>
                     </div>
                     
                     
             </div>
 
             </ul>
-            <div id = "secondBar"><h2 class = "pageTitle"><?php echo $_SESSION['pageName']?></h2></div>
-      
+            

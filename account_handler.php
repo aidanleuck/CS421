@@ -6,6 +6,7 @@ include 'user.php';
 
 $_SESSION['errors'] = array();
 $_SESSION['additionalErrors'] = array();
+$_SESSION['savedForm'] = array();
 
 function checkPassword($password){
     $result = preg_match("/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}/", $password);
@@ -78,7 +79,10 @@ if($_POST['password'] !== $_POST['confirmPassword']){
 
 
 if(count($_SESSION['errors']) || count($_SESSION['additionalErrors'])){
+    $_SESSION['savedForm']['email1'] = $_POST['email'];
+    $_SESSION['savedForm']['email2'] = $_POST['confirmEmail'];
     header('Location:create_account.php');
+    exit;
 }
 else{
     

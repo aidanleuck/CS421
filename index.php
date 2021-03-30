@@ -1,9 +1,7 @@
 <html>
     <head>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mair.css">
     <?php
-    session_start();
-    $_SESSION['pageName'] = "Home";
     include "stylesheets.php";
     ?>
     </head>
@@ -12,7 +10,9 @@
     ?>
     <body>
         <div id = "container">
-            <h1 class = "shipping">Free Shipping Now Available!</h1>
+            <div id = "shipping">
+                <h1 class = "shipping">Free Shipping Now Available!</h1>
+            </div>
 
             <h2 class = "heading">Featured Products</h2>
 
@@ -29,10 +29,13 @@
             <div id = "product-row">
             <div id ="product">
                     <img src = "images/air-filter.jpg" class = "responsive">
-                    <div id = "desc"><a href = "">Subaru Outback Air Filter</a></div>
-                    <div id = "price">$22.99</div>
+                    <div id = "product_info">
+                        <div id = "desc"><a href = "">Subaru Outback</a></div>
+                        <div id = "price">$22.99</div>
+                    
                     <div id = "button">
                         <button class = "atc">Add to Cart</button>
+                    </div>
                     </div>
                 </div>
                 <div id ="product">

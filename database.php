@@ -76,6 +76,52 @@ require 'KLogger.php';
             exit;
         }
     }
+    public function searchParts($searchString){
+        $conn = $this->makeConnection();
+        $searchString = "%{$searchString}%";
+        try{
+            $q = $conn->prepare("Select * From Part WHERE partID LIKE :partID or partName LIKE :partName");
+            $q->bindParam(':partID', $searchString);
+            $q->bindParam(':partName', $searchString);
+            $q->execute();
+            $row = $q->fetchAll();
+
+            return $row;
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+
+    public function printAllParts(){
+        $parts = $this->getParts();
+        foreach($parts as $part){
+        echo'<tr>
+            <form method = "post" action = "cart.php">
+                    <td>'.$part['partID'].'</td>
+                    <td>'.$part['partName'].'</td>
+                    <td>'.$part['price'].'</td>
+                    <input type = "hidden" name = "id" value = '.$part['partID'].'></input>
+                    <td><button type = "submit" class = "atc">Add to Cart</button></td>
+                </tr>
+                </form>';
+    }
+}
+
+    public function getParts(){
+        $conn = $this->makeConnection();
+        try{
+            $sql = "SELECT * FROM Part";
+            $result = $conn->query($sql, PDO::FETCH_ASSOC);
+
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+        return $result->fetchAll();
+    }
 
     public function inCart($partID, $userID){
         $conn = $this->makeConnection();
@@ -164,14 +210,18 @@ require 'KLogger.php';
         $products = $this->getFeaturedProducts();
         foreach($products as $product){
             echo'<div id ="product">
-                    <img src = "'.$product["imageSrc"].'" class = "responsive">
-                    <div id = "desc"><a href = "">'.$product['partName'].'</a></div>
+                    <div id = "desc">'.$product['partName'].'</div>
+                    <a href = ""><img src = "'.$product["imageSrc"].'" class = "responsive"></a>
+                    <div id = "product_info">
+                    
                     <div id = "price">$'. $product['price'].'</div>
+                    <div id = "info">'.$product['partDesc'].'</div>
                     <div id = "button">
                         <form method = "post" action = "cart.php">
                         <button class = "atc">Add to Cart</button>
                         <input type = "hidden" name = "id" value = "'.$product["partID"].'"></input>
                         </form>
+                    </div>
 
                     </div>
                 </div>';
@@ -231,6 +281,28 @@ require 'KLogger.php';
             }
             else{
                 $this->logger->LogDebug("User does not exist for account ". $email);
+            }
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+    public function getUserByID($id){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("SELECT * From Account WHERE accountID= :id");
+            $q->bindParam(':id', $id);
+           
+            $q->execute();
+            $row = $q->fetch();
+
+            if($row){
+                $this->logger->LogDebug("Found user info for account " .$id);
+                return $row;
+            }
+            else{
+                $this->logger->LogDebug("User does not exist for account ". $id);
             }
         }
         catch(Exception $e){

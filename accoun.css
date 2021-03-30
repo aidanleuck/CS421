@@ -1,0 +1,59 @@
+#container{
+    margin:auto;
+    background-color:white;
+    width:80%;
+    border:1px solid #DAD9D1;
+    margin-bottom:3%;
+    padding-top:2%;
+}
+#accountInfo{
+    width: 31%;
+    display:inline-block;
+    border:1px solid #DAD9D1;
+    height:500px;
+}
+#orderInfo{
+    width: 31%;
+    display:inline-block;
+    border:1px solid #DAD9D1;
+    height:500px;
+}
+
+#outer{
+    width:100%;
+    text-align: center;
+   
+    
+}
+#link{
+    text-decoration: underline;
+    color: #007399;
+}
+#link:hover{
+    color:#00394d;
+}
+
+#content{
+    width:400px;
+    height: 25%;
+    margin-left:2%;
+    display:inline-block;
+    vertical-align: top;
+    margin-bottom:20px;
+    border:1px solid #DAD9D1;
+}
+#headerBar{
+    background-color: #007399;
+    width:100%;
+    font-size:30px;
+    display: inline-block;
+    color:white;
+    font-weight: 900;
+   
+}
+#inner-content{
+    text-align: left;
+    padding-left: 20px;
+    padding-top:20px;
+}
+

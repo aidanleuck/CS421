@@ -17,10 +17,10 @@
 					<label for="email">
 						<h3>Email Address</h3></label>
 				</div>
-                <input class="input-text" type="text" id="email" name="email" placeholder="Email Address"></input>
+                <input class="input-text" type="text" id="email" name="email" placeholder="Email Address" value="<?php  session_start(); if(isset($_SESSION['savedForm']['email1'])) echo $_SESSION['savedForm']['email1'];?>"></input>
                 <span class = "error">
                         <?php 
-                            session_start();
+                            
                             if(isset($_SESSION['errors']['emptyEmail1']) && $_SESSION['errors']['emptyEmail1']){
                                echo "*";
                             }
@@ -34,7 +34,7 @@
 						<label for="confirmEmail">
                             <h3>Confirm Email</h3></label>
 					</div>
-                    <input class="input-text" type="text" id="confirmEmail" name="confirmEmail" placeholder="Confirm Email"></input>
+                    <input class="input-text" type="text" id="confirmEmail" name="confirmEmail" placeholder="Confirm Email" value="<?php if(isset($_SESSION['savedForm']['email2'])) echo $_SESSION['savedForm']['email2'];?>"></input>
                     <span class = "error">
                         <?php 
                              if(isset($_SESSION['errors']['emptyEmail2']) && $_SESSION['errors']['emptyEmail2']){
@@ -97,6 +97,7 @@
                     } 
                     $_SESSION['additionalErrors'] = NULL;
                     $_SESSION['errors'] = NULL;
+                    $_SESSION['savedForm'] = NULL;
                     ?>
                     
                 </div>

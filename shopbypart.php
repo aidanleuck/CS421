@@ -18,24 +18,9 @@
                     <th>Price</th>
                     <th></th>
                 </tr>
-                <tr>
-                    <td>0132432</td>
-                    <td>Subaru Outback Air Filter</td>
-                    <td>$24.99</td>
-                    <td><button class = "atc">Add to Cart</button></td>
-                </tr>
-                <tr>
-                    <td>0132432</td>
-                    <td>Subaru Outback Air Filter</td>
-                    <td>$24.99</td>
-                    <td><button class = "atc">Add to Cart</button></td>
-                </tr>
-                <tr>
-                    <td>0132432</td>
-                    <td>Subaru Outback Air Filter</td>
-                    <td>$24.99</td>
-                    <td><button class = "atc">Add to Cart</button></td>
-                </tr>
+                <?php include 'database.php'; 
+                $dao = new Database();
+                $dao->printAllParts();?>
             </thead>
 
         </table>

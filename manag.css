@@ -1,0 +1,49 @@
+#container{
+    margin:auto;
+    background-color:white;
+    width:80%;
+    border:1px solid #DAD9D1;
+    margin-bottom:3%;
+    
+}
+.input{
+    width:50%;
+    height:3%;
+    margin-left:4%;
+    margin-bottom: 2%;
+}
+label{
+    padding-left:4%;
+}
+#headerBar{
+    background-color: #007399; 
+    padding-top:2em;
+    padding-bottom: 2em;
+    color:white;
+    position: relative;
+    padding-left: 4%;
+    overflow: hidden;
+    margin-bottom: 2em;
+    
+}
+.button{
+    background-color:#007399;
+    color:white;
+    border-radius: 3px;
+    border:.5px solid black;
+    width: 25%;
+    margin-bottom: 2%;
+    height: 50px;
+    margin-left:14.5%;
+}
+.error{
+    color:red;
+    font-size:12px;
+}
+.good{
+    color:green;
+    font-size:12px;
+}
+h4{
+    margin-left:14.5%;
+}

@@ -2,9 +2,9 @@
 include 'database.php';
 include 'cartList.php';
 include 'user.php';
+include 'checkoutClass.php';
 session_start();
 $dao = new Database();
-print_r($_POST);
 if(isset($_POST['deleteAll'])){
     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
         $dao->deleteCart($_SESSION['user']->getAccountID());
@@ -18,7 +18,9 @@ if(isset($_POST['deleteAll'])){
     }
 }
 else if(isset($_POST['checkout'])){
-    header('Location:checkout.php');
+
+    $_SESSION['checkoutInfo'] = new checkOutData($_POST['partIDCheckout'], $_POST['quantity']);
+    header('Location: checkout.php');
     exit;
 }
 else if(isset($_POST['deleteSelected'])){

@@ -60,7 +60,7 @@ Class CartItem{
 
             <div id = "quantity">
                 <label for "quantity">Qty</label>
-                <select name = "quantity" id ="quantity">';
+                <select name = "quantity[]" id ="quantity">';
                
 
            

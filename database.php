@@ -280,6 +280,70 @@ require 'KLogger.php';
             }
 
     }
+    public function getStock($partID){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("SELECT stock FROM Part Where partID = :partID");
+            $q->bindParam(':partID', $partID);
+          
+            $q->execute();
+            $row = $q->fetch();
+            return $row;    
+
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn($e);
+            exit;
+        }
+        
+    }
+    public function updateStock($partID, $quantity){
+        $conn = $this->makeConnection();
+        $result = $this->getStock($partID);
+        try{
+            $this->logger->LogDebug("Updating stock for '.$partID.'");
+            $q = $conn->prepare("UPDATE Part SET stock = :newStock WHERE partID = :partID");
+            $q->bindParam(':partID', $partID);
+            $newStock = $result['stock'] - $quantity;
+            $q->bindParam(':newStock', $newStock);
+
+            $q->execute();
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn($e);
+        }
+    }
+    public function addOrderManifest($orderNumber, $partID, $quantity){
+        $conn = $this->makeConnection();
+        try{
+            $this->logger->LogDebug("Adding order_manifest for '.$orderNumber.'");
+            $q = $conn->prepare("Insert Into Order_Manifest (orderNumber, partID, quantity) VALUES(:orderNumber, :partID, :quantity)");
+            $q->bindParam(':orderNumber', $orderNumber);
+            $q->bindParam(':partID', $partID);
+            $q->bindParam(':quantity', $quantity);
+            $q->execute();
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn($e);
+        }
+    }
+    public function addOrder($orderID, $orderAmount, $accountID){
+        $conn = $this->makeConnection();
+        try{
+            $this->logger->LogDebug("Adding order for '.$accountID.'");
+            $q = $conn->prepare("Insert Into Orders (orderNumber, orderAmount, orderDate, accountID) VALUES(:orderID, :orderAmount, :date, :accountID)");
+            $date = date("Y-m-d");
+            $q->bindParam(':orderID', $orderID);
+            $q->bindParam(':orderAmount', $orderAmount);
+            $q->bindParam(':date', $date);
+            $q->bindParam(':accountID', $accountID);
+            
+            $q->execute();
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn($e);
+        }
+    }
     public function updateUser($uID, $email, $address, $city, $state, $zip){
         $conn = $this->makeConnection();
         try{

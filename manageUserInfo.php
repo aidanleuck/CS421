@@ -123,7 +123,7 @@ if(!$_SESSION['logged_in']){
             if(isset($_SESSION['succesfulForm']) && !$_SESSION['succesfulForm']){
                     echo '<h4 class = "error">There were errors in your form the account was not updated</h4>';
             }
-            else if($_SESSION['succesfulForm']){
+            else if(isset($_SESSION['succesfulForm']) && $_SESSION['succesfulForm']){
                     echo '<h4 class = "good">Account Updated</h4>';
             }    
             echo '<button class = "button" type = "submit">Update Information</button>

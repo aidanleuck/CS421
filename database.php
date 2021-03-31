@@ -11,20 +11,19 @@ require 'KLogger.php';
     public function __construct(){
         $this->logger = new KLogger("logs/log.txt", KLogger::DEBUG);
         $url = parse_url("mysql://b3ad4171a41e4e:000f8d66@us-cdbr-east-03.cleardb.com/heroku_67195a60087b2ce?reconnect=true");
-        print_r($url);
         $this->user = $url["user"];
         $this->password = $url["pass"];
         $db = substr($url["path"], 1);
         $host = $url['host'];
 
-        $this->dsn = "mysql:dbname=$db;host=$host";
+        $this->dsn = "mysql:dbname=heroku_67195a60087b2ce;host=us-cdbr-east-03.cleardb.com";
     }
     private function makeConnection(){
         
         try{
             
+            return new PDO($this->dsn, $this->user, $this->password);
 
-            $conn = new PDO($this->dsn, $this->user, $this->password);
         }
         catch(PDOException $exception){
             $this->logger->LogFatal("Database connection failed! " . $exception);

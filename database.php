@@ -145,6 +145,28 @@ require 'KLogger.php';
         }
     }
 
+    public function getOrdersData($uid){
+        $conn = $this->makeConnection();
+
+        try{
+            $q = $conn->prepare("SELECT Orders.orderNumber, Orders.orderAmount, Orders.orderDate, Order_Manifest.partID FROM Orders JOIN Order_Manifest on Order_Manifest.orderNumber = Orders.orderNumber Where accountID = :accountID");
+            $q->bindParam(':partID', $partID);
+            $q->bindParam(':userID', $userID);
+            $q->execute();
+            $row = $q->fetch();
+
+            if($row['total']){
+                $this->logger->LogDebug("Found row in cart for " .$partID . "and user " .$userID);
+                return true;
+            }
+            return false;
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+
     public function verifyPart($partID){
         $conn = $this->makeConnection();
 

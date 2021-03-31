@@ -31,7 +31,7 @@ if(!$_SESSION['logged_in']){
         <div id = "content">
             <div id = "headerBar">Orders</div>
             <div id = "inner-content">
-                <a href = "" id = "link">View My Orders</a>
+                <a href = "viewOrders.php" id = "link">View My Orders</a>
             </div>
         </div>
     </div>

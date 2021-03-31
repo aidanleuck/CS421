@@ -1,0 +1,71 @@
+#container{
+    background-color:white;
+    width:65%;
+    margin-left:15%;
+    margin-top: 2%;
+    border:1px solid #DAD9D1;
+}
+#headerbar{
+    background-color:#0099cc;
+    color:white;
+    width:100%;
+    text-align: left;
+   
+    padding-top:1em;
+    
+}
+#headerbar > h2{
+    padding-left:4%;
+}
+#orders_row{
+    margin-bottom:1em;
+    padding-left:4%;
+    padding-bottom:1em;
+}
+#orderID{
+    display:inline-block;
+    font-size:20px;
+}
+#date{
+    float:right;
+    font-size:20px;
+    padding-right: 4%;
+}
+#image{
+    display:inline-block;
+    height:196px;
+    width:auto;
+}
+#product{
+    margin-left:4%;
+    
+}
+#inner-product{
+    display: inline-block;
+    width:100%;
+    
+}
+#desc{
+    display:inline-block;
+    font-size:20px;
+    font-weight:900;
+    
+    
+}
+#right{
+    text-align: right;
+    padding-right:20px;
+}
+#align{
+    display: inline-block;
+    width:65%;
+    vertical-align: top;
+    line-height: 196px;
+    text-align: center;
+}
+#partTotal{
+    float:right;
+    text-align: right;
+    line-height: 196px;
+    padding-right: 20px;
+}

@@ -2488,3 +2488,45 @@ now - DEBUG --> Found orders for 606408dc30d71
 now - DEBUG --> Found orders for user1 
 now - DEBUG --> Found orders for 606404761bf70 
 now - DEBUG --> Found orders for 606408dc30d71 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/CS421_Website/database.php:28
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(28): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /opt/lampp/htdocs/CS421_Website/database.php(243): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/database.php(256): Database->getFeaturedProducts()
+#3 /opt/lampp/htdocs/CS421_Website/index.php(23): Database->printFeatured()
+#4 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/CS421_Website/database.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(29): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /opt/lampp/htdocs/CS421_Website/database.php(244): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/database.php(257): Database->getFeaturedProducts()
+#3 /opt/lampp/htdocs/CS421_Website/index.php(23): Database->printFeatured()
+#4 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/CS421_Website/database.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(29): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /opt/lampp/htdocs/CS421_Website/database.php(244): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/database.php(257): Database->getFeaturedProducts()
+#3 /opt/lampp/htdocs/CS421_Website/index.php(23): Database->printFeatured()
+#4 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/CS421_Website/database.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(29): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /opt/lampp/htdocs/CS421_Website/database.php(244): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/database.php(257): Database->getFeaturedProducts()
+#3 /opt/lampp/htdocs/CS421_Website/index.php(23): Database->printFeatured()
+#4 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/CS421_Website/database.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(29): PDO->__construct('mysql:host=;dbn...', 'b3ad4171a41e4e', '000f8d66')
+#1 /opt/lampp/htdocs/CS421_Website/database.php(244): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/database.php(257): Database->getFeaturedProducts()
+#3 /opt/lampp/htdocs/CS421_Website/index.php(23): Database->printFeatured()
+#4 {main} 
+now - FATAL --> Database connection failed! PDOException: SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/CS421_Website/database.php:26
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(26): PDO->__construct('mysql:host=;dbn...', 'b3ad4171a41e4e', '000f8d66')
+#1 /opt/lampp/htdocs/CS421_Website/database.php(241): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/database.php(254): Database->getFeaturedProducts()
+#3 /opt/lampp/htdocs/CS421_Website/index.php(23): Database->printFeatured()
+#4 {main} 

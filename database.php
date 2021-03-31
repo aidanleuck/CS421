@@ -145,21 +145,33 @@ require 'KLogger.php';
         }
     }
 
-    public function getOrdersData($uid){
+    public function getOrder($uid){
         $conn = $this->makeConnection();
 
         try{
-            $q = $conn->prepare("SELECT Orders.orderNumber, Orders.orderAmount, Orders.orderDate, Order_Manifest.partID FROM Orders JOIN Order_Manifest on Order_Manifest.orderNumber = Orders.orderNumber Where accountID = :accountID");
-            $q->bindParam(':partID', $partID);
-            $q->bindParam(':userID', $userID);
+            $q = $conn->prepare("SELECT * From Orders Where accountID = :uid");
+            $q->bindParam(':uid', $uid);
             $q->execute();
-            $row = $q->fetch();
-
-            if($row['total']){
-                $this->logger->LogDebug("Found row in cart for " .$partID . "and user " .$userID);
-                return true;
-            }
-            return false;
+            $row = $q->fetchAll();
+            $this->logger->LogDebug("Found orders for user" .$uid);
+            return $row;
+    
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+    public function getOrderInfo($oNum){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("SELECT Part.partName, Part.imageSrc, Part.Price, Order_Manifest.quantity From Order_Manifest JOIN Part ON Order_Manifest.partID = Part.partID Where Order_Manifest.orderNumber = :oNum");
+            $q->bindParam(':oNum', $oNum);
+            $q->execute();
+            $row = $q->fetchAll();
+            $this->logger->LogDebug("Found orders for " .$oNum);
+            return $row;
+    
         }
         catch(Exception $e){
             $this->logger->LogWarn(print_r($e, 1));
@@ -218,7 +230,7 @@ require 'KLogger.php';
     private function getFeaturedProducts(){
         $conn = $this->makeConnection();
         try{
-            $sql = "SELECT * FROM Part";
+            $sql = "SELECT * FROM Part order by rand() limit 12";
             $result = $conn->query($sql, PDO::FETCH_ASSOC);
 
         }

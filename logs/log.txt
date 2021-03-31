@@ -2228,3 +2228,263 @@ now - DEBUG --> Updating stock for '.#123.'
 now - DEBUG --> Deleting entire cart for user1 
 now - DEBUG --> No rows exist in the cart for account 1 
 now - DEBUG --> No rows exist in the cart for account 1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606385c5388ac 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606385c5388ac 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606385c5388ac 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606385c5388ac 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for  
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606385c5388ac 
+now - DEBUG --> Found orders for 606386a274539 
+now - DEBUG --> Found orders for 606386daa63c8 
+now - DEBUG --> Found orders for 6063895196381 
+now - DEBUG --> Found orders for 6063895f43508 
+now - DEBUG --> Found orders for 6063898192080 
+now - DEBUG --> Found orders for 6063899da37f2 
+now - DEBUG --> Found orders for 606389b5ad68d 
+now - DEBUG --> Found orders for 606389cc01c3f 
+now - DEBUG --> Found orders for 606389ee9799d 
+now - DEBUG --> Found orders for 60638a0e7eeb0 
+now - DEBUG --> Found orders for 60638a21217b5 
+now - DEBUG --> Found orders for 60638a3da2f93 
+now - DEBUG --> Found orders for 60638abe76f82 
+now - DEBUG --> Found orders for 60638ae05fbf0 
+now - DEBUG --> Found orders for 60638af9036bf 
+now - DEBUG --> Found orders for 60638ba021131 
+now - DEBUG --> Found orders for 60638c3a8f335 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Inserting Part: #124for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Inserting Part: #123for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Deleting cart item #124 for user1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row in cart for #123and user 1 
+now - DEBUG --> Found id for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row in cart for #123and user 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Adding order for '.1.' 
+now - DEBUG --> Adding order_manifest for '.6063ff1250b1a.' 
+now - DEBUG --> Updating stock for '.#123.' 
+now - DEBUG --> Deleting entire cart for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 6063ff1250b1a 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 6063ff1250b1a 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 6063ff1250b1a 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> No rows exist in the cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Inserting Part: #123for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Inserting Part: #124for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Deleting cart item #124 for user1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Inserting Part: #124for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row in cart for #123and user 1 
+now - DEBUG --> Found row in cart for #124and user 1 
+now - DEBUG --> Found id for account 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row in cart for #123and user 1 
+now - DEBUG --> Found row in cart for #124and user 1 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Adding order for '.1.' 
+now - DEBUG --> Adding order_manifest for '.606403625cf2e.' 
+now - DEBUG --> Updating stock for '.#123.' 
+now - DEBUG --> Adding order_manifest for '.606403625cf2e.' 
+now - DEBUG --> Updating stock for '.#124.' 
+now - DEBUG --> Deleting entire cart for user1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Inserting Part: #124for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Inserting Part: #123for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row in cart for #124and user 1 
+now - DEBUG --> Found row in cart for #123and user 1 
+now - DEBUG --> Found id for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row in cart for #124and user 1 
+now - DEBUG --> Found row in cart for #123and user 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #123 
+now - DEBUG --> Adding order for '.1.' 
+now - DEBUG --> Adding order_manifest for '.606404761bf70.' 
+now - DEBUG --> Updating stock for '.#124.' 
+now - DEBUG --> Adding order_manifest for '.606404761bf70.' 
+now - DEBUG --> Updating stock for '.#123.' 
+now - DEBUG --> Deleting entire cart for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Inserting Part: #124for account: 1 
+now - DEBUG --> Found cart for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row in cart for #124and user 1 
+now - DEBUG --> Found id for account 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row in cart for #124and user 1 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Found row for part #124 
+now - DEBUG --> Adding order for '.1.' 
+now - DEBUG --> Adding order_manifest for '.606408dc30d71.' 
+now - DEBUG --> Updating stock for '.#124.' 
+now - DEBUG --> Deleting entire cart for user1 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 
+now - DEBUG --> Found orders for user1 
+now - DEBUG --> Found orders for 606404761bf70 
+now - DEBUG --> Found orders for 606408dc30d71 

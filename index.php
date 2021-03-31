@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="stylesheet" href="mair.css">
+    <link rel="stylesheet" href="mairn.css">
     <?php
     include "stylesheets.php";
     ?>

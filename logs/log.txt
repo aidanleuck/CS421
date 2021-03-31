@@ -2530,3 +2530,144 @@ Stack trace:
 #2 /opt/lampp/htdocs/CS421_Website/database.php(254): Database->getFeaturedProducts()
 #3 /opt/lampp/htdocs/CS421_Website/index.php(23): Database->printFeatured()
 #4 {main} 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 1 
+now - DEBUG --> No rows exist in the cart for account 1 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Inserting Part: #3for account: 1 
+now - DEBUG --> No rows exist in the cart for account 1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 1 
+now - DEBUG --> No rows exist in the cart for account 1 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> User does not exist for account aidan@leucks.com 
+now - DEBUG --> Creating user with email: aidan@leucks.com 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Inserting Part: #6for account: 4 
+now - DEBUG --> Found cart for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found cart for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found user info for account 4 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found cart for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row in cart for #6and user 4 
+now - DEBUG --> Found cart for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Inserting Part: #3for account: 4 
+now - DEBUG --> Found cart for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #5for account: 4 
+now - DEBUG --> Found cart for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row in cart for #6and user 4 
+now - DEBUG --> Found row in cart for #3and user 4 
+now - DEBUG --> Found row in cart for #5and user 4 
+now - DEBUG --> Found id for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found user info for account 4 
+now - DEBUG --> Updating Account '.4.' 
+now - DEBUG --> Found user info for account 4 
+now - DEBUG --> Found cart for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row in cart for #6and user 4 
+now - DEBUG --> Found row in cart for #3and user 4 
+now - DEBUG --> Found row in cart for #5and user 4 
+now - DEBUG --> Found id for account 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row in cart for #6and user 4 
+now - DEBUG --> Found row in cart for #3and user 4 
+now - DEBUG --> Found row in cart for #5and user 4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Adding order for '.4.' 
+now - DEBUG --> Adding order_manifest for '.606428ececb78.' 
+now - DEBUG --> Updating stock for '.#6.' 
+now - DEBUG --> Adding order_manifest for '.606428ececb78.' 
+now - DEBUG --> Updating stock for '.#3.' 
+now - DEBUG --> Adding order_manifest for '.606428ececb78.' 
+now - DEBUG --> Updating stock for '.#5.' 
+now - DEBUG --> Deleting entire cart for user4 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> No rows exist in the cart for account 4 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Inserting Part: #9for account: 4 
+now - DEBUG --> Found cart for account 4 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row in cart for #9and user 4 
+now - DEBUG --> Found id for account 4 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row in cart for #9and user 4 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Adding order for '.4.' 
+now - DEBUG --> Adding order_manifest for '.60642a1669350.' 
+now - DEBUG --> Updating stock for '.#9.' 
+now - DEBUG --> Deleting entire cart for user4 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for 60642a1669350 

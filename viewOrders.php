@@ -9,7 +9,7 @@ include 'nav.php';
 
 ?>
 <html>
-<head><link rel="stylesheet" href="orders.css?s="></head>
+<head><link rel="stylesheet" href="orders.css?c="></head>
 
 <body>
     <div id = "container">

@@ -240,7 +240,7 @@ require 'KLogger.php';
     private function getFeaturedProducts(){
         $conn = $this->makeConnection();
         try{
-            $sql = "SELECT * FROM Part order by rand() limit 12";
+            $sql = "SELECT * FROM Part order by rand() limit 5";
             $result = $conn->query($sql, PDO::FETCH_ASSOC);
 
         }
@@ -255,7 +255,7 @@ require 'KLogger.php';
         foreach($products as $product){
             echo'<div id ="product">
                     <div id = "desc">'.$product['partName'].'</div>
-                    <a href = ""><img src = "'.$product["imageSrc"].'" class = "responsive"></a>
+                    <img src = "'.$product["imageSrc"].'" class = "responsive">
                     <div id = "product_info">
                     
                     <div id = "price">$'. $product['price'].'</div>

@@ -24,7 +24,7 @@ if(isset($_SESSION['searchResults']) && count($_SESSION['searchResults'])){
         
                 <div id = "title">
                         
-                <a href = "products.php/?pID='.$result['partID'].'"><h2 class = "product">'.$result['partName'].'</h2></a>
+               <h2 class = "product">'.$result['partName'].'</h2>
                 </div>
         
                 <div id = "desc">'.$result['partDesc'].'</div>

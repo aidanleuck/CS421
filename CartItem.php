@@ -44,7 +44,7 @@ Class CartItem{
             <input type = "hidden" name = "partIDCheckout[]" value = "'.$this->partID.'"/>
             <div id = "title">
                 
-                <a href = "products.php/?pID='.$this->partID.'"><h2 class = "product">'.$this->partName.'</h2></a>
+                <h2 class = "product">'.$this->partName.'</h2>
             </div>';
             echo '<div id = "stock">';
             

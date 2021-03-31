@@ -38,7 +38,7 @@ foreach($keys as $key){
 $_SESSION['checkoutInfo'] = NULL;
 $dao->deleteCart($_SESSION['user']->getAccountID());
 
- header('Location: index.php');
+ header('Location: viewOrders.php');
 
 
 ?>

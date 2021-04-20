@@ -88,6 +88,13 @@ body{
       float:left;
       
   }
+  #active{
+      background-color: white;
+      
+  }
+  #color{
+      color:orange;
+  }
 
 
 .nav-item{
@@ -95,6 +102,7 @@ body{
     margin-left:2%;
     color:white;
     height: 100%;
+    padding:0 5px 0 5px;
     line-height: 50px;
     
     

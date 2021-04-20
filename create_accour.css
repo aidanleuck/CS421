@@ -26,6 +26,9 @@ input{
     color:red;
     font-size:12px;
 }
+.errorInput{
+    background-color: #FB8585;
+}
 #error_box{
     background-color: #ff6666;
     border: 1px solid #ff6666;
@@ -41,8 +44,10 @@ input{
     margin-left:5%;
 }
 .right{
-    float:right;
+    position: absolute;
+    right: 0;
     padding-right:1em;
+    z-index: 1001;
 }
 .error_symbol{
     position: absolute;
@@ -52,6 +57,7 @@ input{
     position: absolute;
     display: inline-block;
     width: 100%;
+    z-index: 0;
     text-align: center;
 }
 button{

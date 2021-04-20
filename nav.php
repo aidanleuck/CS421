@@ -1,3 +1,14 @@
+    <?php
+     $actualLink = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+     $firstSlash = explode("/", $actualLink);
+
+     if($_SERVER['HTTP_HOST'] . '/' . $firstSlash[1] . '/' === $actualLink){
+         header('Location:index.php');
+         exit;
+     }
+
+    ?>
+    
     <div id = "logo">
             
     </div>

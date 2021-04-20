@@ -2671,3 +2671,26 @@ now - DEBUG --> Deleting entire cart for user4
 now - DEBUG --> Found orders for user4 
 now - DEBUG --> Found orders for 606428ececb78 
 now - DEBUG --> Found orders for 60642a1669350 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Updating password for account '.4.' 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found orders for user4 
+now - DEBUG --> Found orders for 606428ececb78 
+now - DEBUG --> Found orders for 60642a1669350 

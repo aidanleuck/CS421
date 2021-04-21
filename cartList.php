@@ -60,7 +60,7 @@ Class CartList{
 
         if(count($this->cartItems)){
             
-            echo '<form action = "cart_handler.php" method = "post">
+            echo '<form id = "form" action = "cart_handler.php" method = "post">
             <div id = "body">
         <div id = "container">
             <div id = "cartHeader">

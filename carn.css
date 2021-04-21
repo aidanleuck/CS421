@@ -29,6 +29,9 @@
     color: #0099cc;
     text-decoration: underline;
 }
+#link:active{
+    color:orange;
+}
 #link:hover{
     color: #007399; 
 }

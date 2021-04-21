@@ -52,22 +52,24 @@
                     <?php
                         session_start();
                         if(isset($_SESSION['logged_in'])){
+                        
                             if($_SESSION['logged_in']){
-                                echo '<a href = "logout_handler.php"><li id = "hover" class = "user-info">Log Out</li></a>';
-                                echo '<a href= "account.php">';
+                                echo '<li class = "user-info"><a id = "hover" href = "logout_handler.php">Log Out</a></li>';
+                                echo '<li class = "user-info"><a id = "hover" href= "account.php"><i class = "fa fa-user" aria-hidden = "true"></i></a></li>';
                             }
                             else{
-                                echo '<a href= "login.php">'; 
+                                echo '<li class = "user-info"><a id = "hover" href= "login.php"><i class = "fa fa-user" aria-hidden = "true"></i></a></li>';; 
                             }
 
                         }
                         
                         else{
-                            echo '<a href= "login.php">'; 
+                            echo '<li class = "user-info"><a id = "hover" href= "login.php"><i class = "fa fa-user" aria-hidden = "true"></i></a></li>';
                         }
+                        
                     ?>
                     
-                    <li class = "user-info" id = "hover"><i class="fa fa-user"></i></li></a>
+                    
                     </div>
                     
                     

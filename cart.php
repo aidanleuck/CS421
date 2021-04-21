@@ -1,7 +1,8 @@
 <html>
     <head>
         <?php include "stylesheets.php" ?>
-        <link rel = "stylesheet" href = "carn.css">
+        <link rel = "stylesheet" href = "carn.css?v=">
+        <script src = "JS/cart.js"></script>
     </head>
 
     <body>

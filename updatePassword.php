@@ -9,13 +9,14 @@ if(!$_SESSION['logged_in']){
 <html>
     <head>
     <link rel="stylesheet" href="manag.css?v=<?=time();?>">
+    <script src = "JS/updatePasswordValidation.js"></script>
     </head>
     <body>
         <div id = "container">
             <div id = "headerBar">
                 <h2 id = "headerTitle">Update Password</h2>
             </div>
-            <form method = "post" action = "updatePasswordHandler.php">
+            <form id ="submit" method = "post" action = "updatePasswordHandler.php">
                 <div id = "inputContainer">
                     <label for = "currentPassword">Current Password</label>
                     <div id = "inputError">

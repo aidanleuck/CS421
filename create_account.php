@@ -3,7 +3,8 @@
 <head>
 	<link rel="stylesheet" href="create_accour.css?v=f">
     
-	<?php include "stylesheets.php" ?>
+    <?php include "stylesheets.php" ?>
+    <script src = "JS/validation_functions.php"></script>
     <script src = "JS/create_account_validation.js"></script>
 </head>
 

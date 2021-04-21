@@ -6,6 +6,9 @@
     margin-bottom:3%;
     
 }
+.errorInput{
+    background-color: #FB8585;
+}
 
 .input{
     width:50%;

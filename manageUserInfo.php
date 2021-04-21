@@ -12,7 +12,8 @@ if(!$_SESSION['logged_in']){
 
 <html>
     <head>
-    <link rel="stylesheet" href="manag.css">
+    <link rel="stylesheet" href="manag.css?v=">
+    <script src = "JS/updateAccount_validation.js"></script>
     </head>
     <body>
         <div id = "container">
@@ -24,7 +25,7 @@ if(!$_SESSION['logged_in']){
             $dao = new Database();
             $userInfo = $dao->getUserByID($_SESSION['user']->getAccountID());
             echo '
-            <form method = "post" action = "updateAccountHandler.php">
+            <form method = "post" id = "form" action = "updateAccountHandler.php">
             <div id = "inputContainer">
                     <label for = "email">Email</label>
                     <div id = "inputError">

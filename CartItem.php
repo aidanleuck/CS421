@@ -29,7 +29,7 @@ Class CartItem{
                 <div id = "inner-cart">
                 <div id = "imageCheck">
                     <div id = "check">
-                        <input type = "checkbox" name = "partID[]" value = "'.$this->partID.'">
+                        <input type = "checkbox" class = "sel" name = "partID[]" value = "'.$this->partID.'">
                     </div>
 
                     <div id = "image" >
@@ -76,7 +76,7 @@ Class CartItem{
 
 
             <div id ="delete">
-                <a id = "deleteLink" href = "delete_handler.php?pID='.urlencode($this->partID).'">Remove</a>
+                <a id = "deleteLink" class = "deleteL" data='.urlencode($this->partID).' href = "delete_handler.php?pID='.urlencode($this->partID).'">Remove</a>
             </div>
 
             

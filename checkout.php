@@ -1,9 +1,8 @@
 <?php 
 include 'stylesheets.php';
-include 'database.php';
-include 'user.php';
 include 'checkoutClass.php';
 include 'nav.php';
+
 
 
 if(!$_SESSION['logged_in']){

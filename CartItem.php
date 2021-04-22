@@ -25,7 +25,7 @@ Class CartItem{
 
         echo '
         
-            <div id = "cart-row">
+            <div id = "cart-row" class = "row">
                 <div id = "inner-cart">
                 <div id = "imageCheck">
                     <div id = "check">
@@ -55,7 +55,7 @@ Class CartItem{
                     echo '<span class = "out_stock">Out of Stock</span>';
                 }
             echo '
-            <div id = "price">$'.$this->price.'</div>
+            <div id = "price" class = "price">$'.$this->price.'</div>
             </div>
 
             <div id = "quantity">

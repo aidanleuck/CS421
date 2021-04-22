@@ -1,7 +1,5 @@
 <?php
 include 'stylesheets.php';
-include 'database.php';
-include 'user.php';
 include 'nav.php';
 
 
@@ -47,7 +45,7 @@ include 'nav.php';
 
                 <div id = "image"><img src = "'.$i['imageSrc'].'"></div>
                     <div id = "align">
-                    <div id = "desc">$'.$i["quantity"].' X Subaru Outback Air Filter @ '.$i['Price'].'</div>
+                    <div id = "desc">'.$i["quantity"].' X Subaru Outback Air Filter @ $'.$i['Price'].'</div>
                     
                     </div>
                     <div id = "partTotal">$'.number_format(($i["quantity"] * $i["Price"])* 1.06, 2).'</div>

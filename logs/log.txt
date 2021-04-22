@@ -2694,3 +2694,1614 @@ now - DEBUG --> Found id for account aidan@leucks.com
 now - DEBUG --> Found orders for user4 
 now - DEBUG --> Found orders for 606428ececb78 
 now - DEBUG --> Found orders for 60642a1669350 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #7 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found orders for user24 
+now - DEBUG --> Found orders for 607f29ccc1894 
+now - DEBUG --> Found user info for account 24 
+now - DEBUG --> Updating Account '.24.' 
+now - DEBUG --> Found user info for account 24 
+now - DEBUG --> Found user info for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Inserting Part: #2for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Deleting cart item #4 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Deleting cart item #4 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Deleting cart item #4 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Deleting cart item #4 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Deleting cart item #4 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row in cart for #6and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting cart item #6 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Deleting cart item #6 for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row in cart for #6and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting cart item #6 for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Deleting cart item #6 for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Deleting cart item #6 for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Inserting Part: #3for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Deleting cart item #3 for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Inserting Part: #8for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row in cart for #8and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Inserting Part: #10for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Deleting cart item #8 for user24 
+now - DEBUG --> Deleting cart item #10 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Inserting Part: #10for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting cart item #10 for user24 
+now - DEBUG --> Deleting cart item #6 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Inserting Part: #2for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Deleting cart item #2 for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Inserting Part: #2for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting cart item #1 for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #5for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #5for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Inserting Part: #8for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Inserting Part: #8for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Inserting Part: #9for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Inserting Part: #9for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> No rows exist in the cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting cart item #6 for user24 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row in cart for #6and user 24 
+now - DEBUG --> Found cart for account 24 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting entire cart for user24 
+now - DEBUG --> User does not exist for account bam@bam.com 
+now - DEBUG --> Creating user with email: bam@bam.com 
+now - DEBUG --> Found id for account bam@bam.com 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #5for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #5for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #5for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #5for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Inserting Part: #6for account: 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row in cart for #5and user 34 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Inserting Part: #9for account: 34 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Inserting Part: #7for account: 34 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Inserting Part: #3for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Deleting cart item #3 for user34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Deleting cart item #7 for user34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Deleting cart item #9 for user34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Deleting cart item #6 for user34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Inserting Part: #7for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Inserting Part: #2for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Deleting cart item #7 for user34 
+now - DEBUG --> Deleting cart item #2 for user34 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Inserting Part: #7for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Deleting cart item #7 for user34 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Inserting Part: #8for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Deleting cart item #8 for user34 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Inserting Part: #3for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Inserting Part: #8for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Deleting cart item #8 for user34 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Inserting Part: #7for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Inserting Part: #8for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Deleting cart item #8 for user34 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Inserting Part: #4for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #4 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Inserting Part: #10for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Deleting cart item #10 for user34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #5for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Inserting Part: #2for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Deleting cart item #2 for user34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #1for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting cart item #1 for user34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Inserting Part: #10for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Inserting Part: #3for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Found row for part #2 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account bam@bam.com 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #6 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #4 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account bam@bam.com 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Inserting Part: #8for account: 34 
+now - DEBUG --> Found row in cart for #8and user 34 
+now - DEBUG --> Inserting Part: #1for account: 34 
+now - DEBUG --> Inserting Part: #5for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Inserting Part: #7for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Inserting Part: #9for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account bam@bam.com 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Inserting Part: #5for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Deleting cart item #5 for user34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Inserting Part: #1for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Inserting Part: #9for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Deleting cart item #9 for user34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 34 
+now - DEBUG --> Found id for account 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found user info for account 34 
+now - DEBUG --> Updating Account '.34.' 
+now - DEBUG --> Found user info for account 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 34 
+now - DEBUG --> Found id for account 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row in cart for #1and user 34 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Adding order for '.34.' 
+now - DEBUG --> Adding order_manifest for '.607fe5a6af66c.' 
+now - DEBUG --> Updating stock for '.#1.' 
+now - DEBUG --> Deleting entire cart for user34 
+now - DEBUG --> Found orders for user34 
+now - DEBUG --> Found orders for 607fe5a6af66c 
+now - DEBUG --> Found orders for user34 
+now - DEBUG --> Found orders for 607fe5a6af66c 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Inserting Part: #2for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #2 
+now - DEBUG --> Deleting cart item #2 for user34 
+now - DEBUG --> No rows exist in the cart for account 34 
+now - DEBUG --> Inserting Part: #9for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Inserting Part: #7for account: 34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found row for part #7 
+now - DEBUG --> Deleting cart item #7 for user34 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found cart for account 34 
+now - DEBUG --> Found row for part #9 
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account new@gmail.com 
+now - FATAL --> Database connection failed! PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /opt/lampp/htdocs/CS421_Website/database.php:25
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(25): PDO->__construct('mysql:dbname=he...', 'b3ad4171a41e4e', '000f8d66')
+#1 /opt/lampp/htdocs/CS421_Website/database.php(107): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/manageVehicle.php(66): Database->getAllMake()
+#3 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /opt/lampp/htdocs/CS421_Website/database.php:25
+Stack trace:
+#0 /opt/lampp/htdocs/CS421_Website/database.php(25): PDO->__construct('mysql:dbname=he...', 'b3ad4171a41e4e', '000f8d66')
+#1 /opt/lampp/htdocs/CS421_Website/database.php(107): Database->makeConnection()
+#2 /opt/lampp/htdocs/CS421_Website/manageVehicle.php(66): Database->getAllMake()
+#3 {main} 
+now - DEBUG --> No rows exist in the cart for account 14 
+now - DEBUG --> No rows exist in the cart for account 14 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> User does not exist for account aaron@leucks.com 
+now - DEBUG --> Creating user with email: aaron@leucks.com 
+now - DEBUG --> Found id for account aaron@leucks.com 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Checking for vehicle with Subaru 
+now - DEBUG --> Found row for part  
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found orders for  
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Deleting vehicle from user44 
+now - DEBUG --> Inserting Part: #5for account: 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #5 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aaron@leucks.com 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row in cart for #5and user 44 
+now - DEBUG --> Found id for account 44 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row in cart for #5and user 44 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Adding order for '.44.' 
+now - DEBUG --> Adding order_manifest for '.60809aa9b5884.' 
+now - DEBUG --> Updating stock for '.#5.' 
+now - DEBUG --> Deleting entire cart for user44 
+now - DEBUG --> Found orders for user44 
+now - DEBUG --> Found orders for 60809aa9b5884 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found row for part #10 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aaron@leucks.com 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aaron@leucks.com 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aaron@leucks.com 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> No rows exist in the cart for account 44 
+now - DEBUG --> No rows exist in the cart for account 44 
+now - DEBUG --> Inserting Part: #3for account: 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row in cart for #3and user 44 
+now - DEBUG --> Found id for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row in cart for #3and user 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Adding order for '.44.' 
+now - DEBUG --> Adding order_manifest for '.6080a3cb9dc4c.' 
+now - DEBUG --> Updating stock for '.#3.' 
+now - DEBUG --> Deleting entire cart for user44 
+now - DEBUG --> Found id for account 44 
+now - DEBUG --> No rows exist in the cart for account 44 
+now - DEBUG --> Found orders for user44 
+now - DEBUG --> Found orders for 60809aa9b5884 
+now - DEBUG --> Found orders for 6080a3cb9dc4c 
+now - DEBUG --> Found user info for account 44 
+now - DEBUG --> Found orders for user44 
+now - DEBUG --> Found orders for 60809aa9b5884 
+now - DEBUG --> Found orders for 6080a3cb9dc4c 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> No rows exist in the cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #8 
+now - INFO  --> User found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Found id for account aaron@leucks.com 
+now - DEBUG --> Inserting Part: #3for account: 44 
+now - DEBUG --> Inserting Part: #8for account: 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Inserting Vehicle into account: 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for user 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found orders for userToyota 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userToyota 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userToyota 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found row in cart for #3and user 44 
+now - DEBUG --> Found row in cart for #8and user 44 
+now - DEBUG --> Found id for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found cart for account 44 
+now - DEBUG --> Found row for part #3 
+now - DEBUG --> Found row for part #8 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found orders for userToyota 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> Found vehicles for 44 
+now - DEBUG --> User does not exist for account john@memes.com 
+now - DEBUG --> Creating user with email: john@memes.com 
+now - DEBUG --> User does not exist for account john@memes.com 
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account lord@lol.com 
+now - DEBUG --> Creating user with email: lord@lol.com 
+now - DEBUG --> User does not exist for account lord@lol.com 
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found id for account aidan@leucks.com 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> Found id for account john@memes.com 
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Updating Account '..' 
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Updating Account '..' 
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Updating Account '..' 
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account aidanleuck@gmail.com 
+now - DEBUG --> Creating user with email: aidanleuck@gmail.com 
+now - DEBUG --> User does not exist for account aidanleuck@gmail.com 
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> User does not exist for account  
+now - DEBUG --> Found vehicles for  
+now - DEBUG --> Found id for account aidanleuck@gmail.com 
+now - DEBUG --> Found id for account aidanleuck@gmail.com 
+now - DEBUG --> Found id for account aidanleuck@gmail.com 
+now - DEBUG --> Found id for account aidanleuck@gmail.com 
+now - DEBUG --> Found id for account aidanleuck@gmail.com 
+now - DEBUG --> Found id for account aidanleuck@gmail.com 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Inserting Part: #1for account: 74 
+now - DEBUG --> Found cart for account 74 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Inserting Vehicle into account: 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Deleting vehicle from user74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found user info for account  
+now - DEBUG --> Updating password for account '.74.' 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found user info for account 74 
+now - DEBUG --> Updating password for account '.74.' 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found user info for account 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found user info for account 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found user info for account 74 
+now - DEBUG --> Updating password for account '.74.' 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Inserting Vehicle into account: 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Inserting Vehicle into account: 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found orders for userSubaru 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found cart for account 74 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found cart for account 74 
+now - DEBUG --> Found row for part #1 
+now - DEBUG --> Deleting cart item #1 for user74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> No rows exist in the cart for account 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Inserting Part: #10for account: 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found cart for account 74 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Inserting Part: #5for account: 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found cart for account 74 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Inserting Part: #9for account: 74 
+now - DEBUG --> Found vehicles for 74 
+now - DEBUG --> Found cart for account 74 
+now - DEBUG --> Found row for part #10 
+now - DEBUG --> Found row for part #5 
+now - DEBUG --> Found row for part #9 

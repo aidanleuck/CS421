@@ -1,9 +1,11 @@
 <html>
     <head>
     <link rel="stylesheet" href="mairn.css">
+    
     <?php
     include "stylesheets.php";
     ?>
+    <script src = "JS/index.js"></script>
     </head>
     <?php
     include "nav.php"
@@ -18,7 +20,7 @@
 
             <div id = "product-row">
                 <?php 
-                require_once 'database.php';
+             
                 $dao = new Database();
                 $dao->printFeatured();
                 ?>
@@ -26,7 +28,7 @@
             <h2 class ="heading">Recommended For You</h2>
             <div id ="product-row">
             <?php 
-                require_once 'database.php';
+                
                 $dao = new Database();
                 $dao->printFeatured();
                 ?>

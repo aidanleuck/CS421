@@ -1,6 +1,6 @@
 <?php
 require_once 'CartItem.php';
-require_once 'KLogger.php';
+//require_once 'KLogger.php';
 
 Class CartList{
     private $cartItems;
@@ -35,7 +35,7 @@ Class CartList{
             <div id = "checkoutContent">
                 <div id = "checkoutAlign">
                     <span class = "checkoutLeft">Subtotal</span>
-                    <span class = "checkoutRight">$'.$this->calculateTotal().'</span>
+                    <span class = "checkoutRight sub">$'.$this->calculateTotal().'</span>
                 </div>
                 <div id = "checkoutAlign">
                     <span class = "checkoutLeft">Total Discounts</span>
@@ -47,7 +47,7 @@ Class CartList{
 
                 <div id ="checkoutAlign">
                     <span class = "checkoutLeft"><h2>EST. Total</h2></span>
-                    <span class = "checkoutRight"><h2>$'.$this->calculateTotal().'</h2></span>
+                    <span class = "checkoutRight subtotal"><h2>$'.$this->calculateTotal().'</h2></span>
                 </div>
                 <div id = "checkoutButton">
                 <input type = "submit" class = "greenButton" name = "checkout" value = "Checkout"/>
@@ -75,7 +75,7 @@ Class CartList{
             <div id = "total">Subtotal: $'.$this->calculateTotal().'</div>
                 <div id = "remove">
                     <input type = "submit" class = "removeAll" id = "removeSel" name = "deleteSelected" value = "Delete Selected"/>
-                    <input type = "submit" name = "deleteAll" class = "removeAll" value = "Delete All"/>
+                    <input type = "submit" id = "removeAll" name = "deleteAll" class = "removeAll" value = "Delete All"/>
                 
             </div>';
           

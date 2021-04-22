@@ -13,7 +13,7 @@ if(isset($_SESSION['searchResults']) && count($_SESSION['searchResults'])){
     foreach ($_SESSION['searchResults'] as $result){
         echo 
         
-        '<form method = "post" action = "cart.php">
+        '<form method = "post" action = "ATC_handler.php">
         <div id = "search-row">
             <div id = "inner-search">
                 <div id = "image" >

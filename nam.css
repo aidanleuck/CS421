@@ -76,6 +76,12 @@ body{
     display:block;
     
 }
+.hidden{
+    display:none;
+}
+.visible{
+    display:block;
+}
   .cart{
       float:left;
       margin-right:10px;
@@ -95,6 +101,10 @@ body{
   #color{
       color:orange;
   }
+  .no-margin{
+      margin-top:0em;
+      margin-bottom:0em;
+  }
 
 
 .nav-item{
@@ -107,6 +117,30 @@ body{
     
     
 
+}
+#link{
+    color:#007399;
+    text-decoration: underline;
+}
+
+.dropdown{
+  position: absolute;
+  background-color: white;
+  color:black;
+  width:15%;
+  left:82.5%;
+  text-align: center;
+  z-index: 1000;
+
+ 
+}
+.vehicleSel{
+    width:80%;
+    margin-bottom:5%;
+}
+.small-text{
+    font-size:12px;
+    line-height: 20px;
 }
 #hover:hover{
     color: #992600;

@@ -5,11 +5,13 @@ require_once 'user.php';
 session_start();
 
 $dao = new Database();
+$result = $dao->getUserPassword($_POST['email']);
 
-if($dao->verifyLogin($_POST['email'], $_POST['password'])){
+if(password_verify($_POST['password'], $result["password"])){
+   
     $_SESSION['logged_in'] = TRUE;
     $_SESSION['login_error'] = FALSE;
-    $row = $dao->getUserID($_POST['email'], $_POST['password']);
+    $row = $dao->getUserByEmail($_POST['email']);
     $_SESSION['user'] = new User($row['accountID'], $_POST['email']);
     header('Location: index.php');
     exit;

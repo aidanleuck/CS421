@@ -58,6 +58,22 @@ require 'KLogger.php';
 
     }
 
+    public function deleteUserVehicle($uid, $vID){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("Delete FROM accountVehicle WHERE accountID = :uid and vehicleID = :vID");
+            $q->bindParam(':uid', $uid);
+            $q->bindParam(':vID', $vID);
+            $q->execute();
+            $this->logger->LogDebug('Deleting vehicle from user'. $uid);
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+        
+    }
+
     public function deleteCart($uid){
         $conn = $this->makeConnection();
         try{
@@ -103,12 +119,58 @@ require 'KLogger.php';
             exit;
         }
     }
+    public function getAllMake(){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("Select DISTINCT make From Vehicle ORDER BY make ASC");
+            $q->execute();
+            $row = $q->fetchAll();
+
+            return $row;
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+ 
+    public function getModel($make){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("Select DISTINCT model From Vehicle where make = :make ORDER BY model ASC");
+            $q->bindParam(":make", $make);
+            $q->execute();
+            $row = $q->fetchAll();
+
+            return $row;
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+    public function getYear($make, $model){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("Select year From Vehicle where model = :model and make = :make ORDER BY year ASC");
+            $q->bindParam(":model", $model);
+            $q->bindParam(":make", $make);
+            $q->execute();
+            $row = $q->fetchAll();
+
+            return $row;
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
 
     public function printAllParts(){
         $parts = $this->getParts();
         foreach($parts as $part){
         echo'<tr>
-            <form method = "post" action = "cart.php">
+            <form method = "post" action = "ATC_handler.php">
                     <td>'.$part['partID'].'</td>
                     <td>'.$part['partName'].'</td>
                     <td>'.$part['price'].'</td>
@@ -172,6 +234,25 @@ require 'KLogger.php';
             exit;
         }
     }
+    public function getVehicleID($make, $model, $year){
+        $conn = $this->makeConnection();
+
+        try{
+            $q = $q = $conn->prepare("Select vehicleID From Vehicle WHERE make = :make and model = :model and year = :year");
+            $q->bindParam(':make', $make);
+            $q->bindParam(':model', $model);
+            $q->bindParam(':year', $year);
+            $q->execute();
+            $row = $q->fetchAll();
+            $this->logger->LogDebug("Found orders for user" .$make);
+            return $row;
+    
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
     public function getOrderInfo($oNum){
         $conn = $this->makeConnection();
         try{
@@ -209,6 +290,24 @@ require 'KLogger.php';
             exit;
         }
     }
+
+    public function getVehiclesUser($userID){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("SELECT DISTINCT accountVehicle.vehicleID, vehicle.make, vehicle.model, vehicle.year From accountVehicle JOIN vehicle ON accountVehicle.vehicleID = vehicle.vehicleID Where accountVehicle.accountID = :accountID");
+            $q->bindParam(':accountID', $userID);
+            $q->execute();
+            $row = $q->fetchAll();
+            $this->logger->LogDebug("Found vehicles for " .$userID);
+            return $row;
+    
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+
     
 
     public function getPartInfo($id){
@@ -261,7 +360,7 @@ require 'KLogger.php';
                     <div id = "price">$'. $product['price'].'</div>
                     <div id = "info">'.$product['partDesc'].'</div>
                     <div id = "button">
-                        <form method = "post" action = "cart.php">
+                        <form method = "post" action = "ATC_handler.php">
                         <button class = "atc">Add to Cart</button>
                         <input type = "hidden" name = "id" value = "'.$product["partID"].'"></input>
                         </form>
@@ -271,6 +370,54 @@ require 'KLogger.php';
                 </div>';
         }
         
+    }
+    public function verifyVehicle($make, $model, $year){
+        $conn = $this->makeConnection();
+
+        try{
+            $q = $conn->prepare("Select * From Vehicle WHERE make = :make and model = :model and year = :year");
+            $q->bindParam(':make', $make);
+            $q->bindParam(':model', $model);
+            $q->bindParam(':year', $year);
+            $q->execute();
+            $row = $q->fetch();
+
+            if($row){
+                return $row;
+            }
+            else{
+               return -1;
+
+            }
+            
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+
+    public function addVehicle($make, $model, $year, $accountID){
+        $conn = $this->makeConnection();
+            try{
+                
+                $row = $this->verifyVehicle($make, $model, $year);
+                if($row != -1){
+                    echo $row['vehicleID'];
+                    $this->logger->LogDebug("Inserting Vehicle into account: " .$accountID);
+                    $q = $conn->prepare("INSERT INTO  accountVehicle(accountID, vehicleID) VALUES (:accountID, :vehicleID)");
+                    $q->bindParam(':accountID', $accountID);
+                    $q->bindParam(':vehicleID', $row['vehicleID']);
+                    $q->execute();
+                }
+                else{
+                    return -1;
+                }
+               
+            }
+            catch(Exception $e){
+                $this->logger->LogWarn($e);
+            }
     }
     public function addToCart($accountID, $partID){
         if(!($this->inCart($partID, $accountID))){
@@ -437,11 +584,55 @@ require 'KLogger.php';
 
             if($row){
                 $this->logger->LogDebug("Found id for account " .$email);
-                return TRUE;
+                return $row;
             }
             else{
                 $this->logger->LogDebug("User does not exist for account ". $email);
                 return FALSE;
+            }
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+    public function getUserPassword($email){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("SELECT password From Account WHERE email = :email");
+            $q->bindParam(':email', $email);
+            $q->execute();
+            $row = $q->fetch();
+
+            if($row){
+                $this->logger->LogDebug("Found id for account " .$email);
+                return $row;
+            }
+            else{
+                $this->logger->LogDebug("User does not exist for account ". $email);
+                return FALSE;
+            }
+        }
+        catch(Exception $e){
+            $this->logger->LogWarn(print_r($e, 1));
+            exit;
+        }
+    }
+    public function getUserPasswordByID($uID){
+        $conn = $this->makeConnection();
+        try{
+            $q = $conn->prepare("SELECT password From Account WHERE accountID= :id");
+            $q->bindParam(':id', $uID);
+           
+            $q->execute();
+            $row = $q->fetch();
+
+            if($row){
+                $this->logger->LogDebug("Found user info for account " .$uID);
+                return $row;
+            }
+            else{
+                $this->logger->LogDebug("User does not exist for account ". $uID);
             }
         }
         catch(Exception $e){

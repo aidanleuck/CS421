@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(isset($_SESSION["logged_in"]) && $_SESSION['logged_in']){
+    header("Location: account.php");
+} 
+?>
 <html>
     <head>
     <?php include "stylesheets.php" ?>
@@ -33,7 +39,7 @@
             </form>
 
             <?php
-                session_start();
+                
                 if(isset($_SESSION['login_error']) && $_SESSION['login_error']){
                     echo '<div id = "error">Incorrect email or password</div>';
                     $_SESSION['login_error'] = FALSE;

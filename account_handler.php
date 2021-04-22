@@ -75,7 +75,7 @@ if(count($_SESSION['additionalErrors']) || count($_SESSION['errors'])){
 else{
     $dao = new Database();
     if(!$dao->getUserByEmail($_POST['email'])){
-        $dao->addUser($_POST['email'], $_POST['password']);
+        $dao->addUser($_POST['email'], password_hash($_POST['password'], PASSWORD_DEFAULT));
         $result = $dao->getUserID($_POST['email'], $_POST['password']);
         $_SESSION['user'] = new User($result['accountID'], $_POST['email']);
         $_SESSION['logged_in'] = TRUE;

@@ -9,6 +9,17 @@ function removeCartRow(select) {
         $("#checkout").remove();
     }
 }
+function updateTotals(){
+    var total = 0;
+    $(".price").each(function(){
+        total += parseFloat($(this).text().substring(1));
+    });
+    total = total.toFixed(2);
+    $("#total").html("Subtotal: $" + total);
+    $(".subtotal").html("<h2>$" + total +"</h2>");
+    $(".sub").html("$" + total);
+    
+}
 
 $(document).ready(function () {
     $(".deleteL").on('click', this, function (e) {
@@ -27,27 +38,52 @@ $(document).ready(function () {
             }
         })
         removeCartRow(this);
+        updateTotals();
 
 
     });
     pID = []
-    $("#removeSel").on('click', this, function (e) {
-        e.preventDefault();
+    $($("#removeSel")).on('click', this, function (e) {
+       e.preventDefault();
         $('.sel:checked').each(function () {
             pID.push($(this).val())
+            removeCartRow($(this));
         });
-
+      
+      
         $.ajax({
             url: 'cart_handler.php',
             type: 'POST',
-            data: { partID: pID, deleteSelected: '1' },
-
+            cache: false,
+            crossDomain: true,
+            dataType: 'json',
+            xhrFields: {
+                withCredentials: true
+            },
+            data: {partID: pID, deleteSelected: '1'},
             success: function (message) {
-
+                
             }
+            
 
         });
+        
+        updateTotals();
+     
 
+    });
+
+    $("#removeAll").on('click', this, function(e){
+        e.preventDefault();
+        $.ajax({
+            url: 'cart_handler.php',
+            type: 'POST',
+            data: {deleteAll: '1'},
+            success: function (message) {
+                console.log(message);
+            }
+        });
+        removeCartRow($('.row'));
     });
 
 

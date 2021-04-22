@@ -18,7 +18,7 @@
                     <th>Price</th>
                     <th></th>
                 </tr>
-                <?php include 'database.php'; 
+                <?php 
                 $dao = new Database();
                 $dao->printAllParts();?>
             </thead>

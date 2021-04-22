@@ -1,7 +1,5 @@
 <?php
 include 'stylesheets.php'; 
-include 'user.php';
-include 'database.php';
 include 'nav.php'; 
 
 if(!$_SESSION['logged_in']){

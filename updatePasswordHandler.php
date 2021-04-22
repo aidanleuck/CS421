@@ -2,7 +2,6 @@
 include 'user.php';
 include 'database.php';
 session_start();
-
 if(!$_SESSION['logged_in']){
     header('Location: index.php');
     exit;
@@ -21,10 +20,14 @@ function checkPassword($password){
     return False;
  }
  $dao = new Database();
+
+ $result = $dao->getUserPasswordByID($_SESSION['user']->getAccountID());
+ 
+ 
 if($_POST['currentPassword'] === ""){
     $_SESSION['errors']['currentPassword'] = "*";
 }
-else if(!$dao->verifyLogin($_SESSION['user']->getEmail(), $_POST['currentPassword'])){
+else if(!password_verify($_POST['currentPassword'], $result["password"])){
     $_SESSION['errors']['currentPassword'] = "Incorrect Password";
 }
 
@@ -54,7 +57,7 @@ if(count($_SESSION['errors']) || isset($_SESSION['additionalErrors']) ){
 else{
     $_SESSION['succesfulForm'] = TRUE;
 
-    $dao->updatePassword($_SESSION['user']->getAccountID(), $_POST['newPassword1']);
+    $dao->updatePassword($_SESSION['user']->getAccountID(), password_hash($_POST['newPassword1'], PASSWORD_DEFAULT));
 
 }
 header('Location:updatePassword.php');
